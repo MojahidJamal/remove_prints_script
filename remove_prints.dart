@@ -38,6 +38,7 @@ void removePrintsFromDirectory(Directory directory) {
       removePrintsWithDoubleQuotedFromFile(entity.path);
     }
   }
+  stdout.write('All print statements have been removed.');
 }
 
 void main() {
